@@ -279,7 +279,7 @@
         #             key = x[:, start:i + span_len, :]
         #             value = x[:, start:i + span_len, :]
     
-#             attn_out, _ = self.attn_local(query, key, value, span_scale)
-#             x[:, i:end, :] = attn_out
-#         # print(f"Hybrid {x.shape}")
-#         return x
+        #             attn_out, _ = self.attn_local(query, key, value, span_scale)
+        #             x[:, i:end, :] = attn_out
+        #         # print(f"Hybrid {x.shape}")
+        #         return x
